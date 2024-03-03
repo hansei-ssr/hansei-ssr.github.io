@@ -6,6 +6,10 @@ body {
     font-family: Arial, Dotum, "돋움";
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
+
 #load {
     position: fixed;
 
@@ -65,9 +69,11 @@ body {
     button:hover {
         border-color: #8CC2FF;
     }
+
+    margin-bottom: 35vh;
 }
 
 .box {
-    margin-top: 60vh;
-    margin-bottom: 50vh;
+    padding-top: 25vh;
+    padding-bottom: 25vh;
 }

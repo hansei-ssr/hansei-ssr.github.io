@@ -1,10 +1,22 @@
 .main {
+    @media (max-width: 991px){
+        margin-left: 15vw;
+        display: block;
+    }
+
     margin-left: 20vw;
 
     display: flex;
 }
 
 .image {
+    @media (max-width: 991px){
+        height: 70vw;
+        width: 70vw;
+
+        margin-right: 0;
+    }
+
     margin-top: 1vh;
     margin-right: 5vw;
 
@@ -15,22 +27,46 @@
 }
 
 .text {
+    @media (max-width: 991px){
+        margin-right: 0;
+        width: 70vw;
+    }
+
     margin-right: 5vw;
 
     h1 {
+        @media (max-width: 991px){
+            margin-top: 5vh;
+
+            font-size: 3vh;
+        }
+
         margin-top: 0;
         font-size: 4vh;
     }
 
     h2 {
+        @media (max-width: 991px){
+            font-size: 1.1vh;
+            font-weight: bold;
+            padding-bottom: 1vh;
+        }
+
         font-weight: normal;
         font-size: 2.5vh;
     }
 
     p {
-        width: 35vw;
+        @media (max-width: 991px){
+            width: 70vw;
+
+            font-size: 0.8vh;
+        }
+
+        width: 30vw;
 
         font-size: 1.7vh;
+        line-height: 2.7vh;
         color: #303030;
     }
 
@@ -40,6 +76,15 @@
     }
 
     li {
+        @media (max-width: 991px){
+            width: 70vw;
+
+            font-size: 0.8vh;
+
+            padding-top: 0vh;
+            padding-bottom: 1.5vh;
+        }
+
         padding-top: 1.5vh;
         font-size: 1.7vh;
         color: #303030;
