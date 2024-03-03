@@ -11,17 +11,25 @@ body {
     margin-left: 5vw;
 
     h1 {
+        margin-bottom: 0vh;
+
         color: white;
         font-size: 5vh;
     }
 
     h2 {
+        margin-top: 1vh;
+        margin-bottom: 0;
+
         color: white;
         font-size: 3vh;
         font-weight: normal;
     }
 
     button {
+        margin-top: 3vh;
+        margin-bottom: 0vh;
+ 
         height: 5vh;
         width: 12vw;
 
