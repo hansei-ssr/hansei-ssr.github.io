@@ -1,0 +1,29 @@
+#main-nav {
+    position: fixed;
+    top: 3vh;
+    left: 5vw;
+}
+
+#logo {
+    display: inline-block;
+
+    height: 8vh;
+    width: 8vh;
+
+    background-image: url("/static/img/ssr.png");
+    background-size: 100% 100%;
+}
+
+#nav-items {
+    display: inline-block;
+    transform: translate(45vw, -3vh);
+}
+
+.nav-item {
+    display: inline-block;
+
+    margin-right: 2.5vw;
+
+    color: white;
+    font-size: 3vh;
+}
