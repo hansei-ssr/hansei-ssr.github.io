@@ -48,7 +48,7 @@
 
 .text-h2 {
     @media (max-width: 991px){
-        font-size: 1.1vh;
+        font-size: 11pt;
         font-weight: bold;
         padding-bottom: 1vh;
     }
@@ -61,7 +61,7 @@
     @media (max-width: 991px){
         width: 70vw;
 
-        font-size: 0.8vh;
+        font-size: 9pt;
     }
 
     width: 30vw;
@@ -80,7 +80,7 @@
     @media (max-width: 991px){
         width: 70vw;
 
-        font-size: 0.8vh;
+        font-size: 11pt;
 
         padding-top: 0vh;
         padding-bottom: 1.5vh;
