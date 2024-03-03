@@ -2,8 +2,12 @@ body {
     background-image: url("/static/img/background.jpg");
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
+    background-color: white;
 
     font-family: Arial, Dotum, "돋움";
+
+    margin-left: 0;
+    margin-right: 0;
 }
 
 body::-webkit-scrollbar {
@@ -28,7 +32,7 @@ body::-webkit-scrollbar {
     }
 
     margin-top: 55vh;
-    margin-left: 5vw;
+    margin-left: 5.5vw;
 
     h1 {
         margin-bottom: 0vh;
