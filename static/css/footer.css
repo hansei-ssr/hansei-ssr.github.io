@@ -1,0 +1,46 @@
+#footer-main-nav {
+    @media (max-width: 991px){
+        margin-top: 0.5vh;
+    }
+
+    margin-top: 10vh;
+}
+
+#footer-logo {
+    @media (max-width: 991px){
+        visibility: hidden;
+    }
+
+    transform: translate(0vw, -1vh);
+
+    display: inline-block;
+
+    height: 2.5vw;
+    width: 2.5vw;
+
+    background-image: url("/static/img/ssr.png");
+    background-size: 100% 100%;
+
+    text-decoration: none;
+
+    filter: invert(100%);
+}
+
+#footer-items {
+    @media (max-width: 991px){
+        visibility: hidden;
+    }
+
+    display: inline-block;
+    transform: translate(2.5vw, -3vh);
+}
+
+.footer-item {
+    display: inline-block;
+
+    margin-right: 2vw;
+
+    color: black;
+    font-size: 1vw;
+    text-decoration: none;
+}

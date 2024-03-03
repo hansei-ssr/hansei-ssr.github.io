@@ -80,3 +80,19 @@ body::-webkit-scrollbar {
     padding-top: 25vh;
     padding-bottom: 25vh;
 }
+
+.last {
+    padding-top: 25vh;
+}
+
+#footer {
+    text-align: center;
+}
+
+#copyright {
+    @media (max-width: 991px){
+        font-size: 12px;
+    }
+
+    font-size: 1vw;
+}
