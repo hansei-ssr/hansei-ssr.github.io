@@ -7,9 +7,9 @@ body {
 }
 
 #load {
-    transform: translate(-1.2vw, -0.6vh);
+    transform: translate(-1.5vw, -0.6vh);
 
-    height: 100vh;
+    height: 500vh;
     width: 100vw;
 
     background-color: black;
