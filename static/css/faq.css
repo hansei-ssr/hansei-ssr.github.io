@@ -6,7 +6,7 @@
 
 .faq-list {
     @media (max-width: 991px){
-        margin-left: 15vw;
+        margin-left: 10vw;
         display: block;
     }
 
@@ -21,7 +21,7 @@
 
 .line {
     @media (max-width: 991px){
-        width: 70vw;
+        width: 80vw;
         text-align: center;
         margin-left: 0;
     }
@@ -43,8 +43,8 @@
 
 .A {
     @media (max-width: 991px){
-        width: 70vw;
-        font-size: 7.5pt;
+        width: 80vw;
+        font-size: 8pt;
     }
 
     margin-bottom: 2.5vh;
