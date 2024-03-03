@@ -1,0 +1,36 @@
+body {
+    background-image: url("/static/img/background.jpg");
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+
+    font-family: Arial;
+}
+
+#recruit {
+    margin-top: 70vh;
+    margin-left: 5vw;
+
+    h1 {
+        color: white;
+        font-size: 5vh;
+    }
+
+    h2 {
+        color: white;
+        font-size: 3vh;
+        font-weight: normal;
+    }
+
+    button {
+        height: 5vh;
+        width: 12vw;
+
+        border: 0.2vh solid white;
+        outline:none;
+        box-shadow:none;
+        background-color: transparent;
+
+        color: white;
+        font-size: 1.5vh;
+    }
+}
