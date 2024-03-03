@@ -16,6 +16,10 @@ body {
 }
 
 #recruit {
+    @media (max-width: 991px){
+        margin-top: 30vh;
+    }
+
     margin-top: 55vh;
     margin-left: 5vw;
 
@@ -36,6 +40,10 @@ body {
     }
 
     button {
+        @media (max-width: 991px){
+	        width: 85vw;
+        }
+
         margin-top: 3vh;
         margin-bottom: 0vh;
  

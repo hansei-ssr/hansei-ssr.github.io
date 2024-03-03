@@ -4,6 +4,11 @@
 }
 
 #logo {
+    @media (max-width: 991px){
+        height: 6vw;
+        width: 6vw;
+    }
+
     display: inline-block;
 
     height: 4.5vw;
@@ -15,7 +20,31 @@
     text-decoration: none;
 }
 
+#menu-button {
+    @media (max-width: 991px){
+        visibility: visible;
+    }
+    visibility: hidden;
+
+    display: inline-block;
+
+    margin-left: 30vw;
+
+    height: 4.5vw;
+    width: 4.5vw;
+
+    background-image: url("/static/img/menu.png");
+    background-size: 100% 100%;
+    filter: invert(100%);
+
+    text-decoration: none
+}
+
 #nav-items {
+    @media (max-width: 991px){
+        visibility: hidden;
+    }
+
     display: inline-block;
     transform: translate(45vw, -3vh);
 }
