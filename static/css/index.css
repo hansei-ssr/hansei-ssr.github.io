@@ -85,6 +85,29 @@ body::-webkit-scrollbar {
     padding-top: 25vh;
 }
 
+#sponsor {
+    @media (max-width: 991px){
+        visibility: hidden;
+    }
+
+    background-color: #202224;
+    background-size: 100% 100%;
+
+    height: 15vh;
+
+    text-align: center;
+}
+
+#sponsor-title {
+    color: white;
+    font-size: 5vh;
+    margin-right: 3vw;
+}
+
+.sponsor-item {
+    margin-top: 3vh;
+}
+
 #footer {
     text-align: center;
 }
@@ -96,3 +119,4 @@ body::-webkit-scrollbar {
 
     font-size: 1vw;
 }
+
