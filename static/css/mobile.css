@@ -51,7 +51,10 @@ body {
     font-size: 1.5vh;
 }
 
+#sponsor {
+    text-align: center;
+}
+
 #tmpf {
     margin-top: 87vh;
-    margin-left: 25vw;
 }
