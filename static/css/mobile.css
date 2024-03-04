@@ -1,0 +1,56 @@
+body {
+    background-image: url("/static/img/mobile/0.png");    
+    background-image: url("/static/img/mobile/1.png");
+    background-image: url("/static/img/mobile/2.png");
+
+    background-color: black;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    font-family: Arial, Dotum, "돋움";
+
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#main {
+}
+
+.page {
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    margin: 0;
+
+    width: 100vw;
+    height: 100vh;
+}
+
+#p0 {
+    background-image: url("/static/img/mobile/0.png");
+}
+
+#p1 {
+    background-image: url("/static/img/mobile/1.png");
+}
+
+#p2 {
+    background-image: url("/static/img/mobile/2.png");
+}
+
+#go {
+    margin-top: 55vh;
+    margin-bottom: 0vh;
+    margin-left: 9vw;
+
+    height: 5vh;
+    width: 82vw;
+
+    border: 0.2vh solid white;
+    outline:none;
+    box-shadow:none;
+    background-color: transparent;
+
+    color: white;
+    font-size: 1.5vh;
+}
