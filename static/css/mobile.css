@@ -1,8 +1,4 @@
 body {
-    background-image: url("/static/img/mobile/0.png");    
-    background-image: url("/static/img/mobile/1.png");
-    background-image: url("/static/img/mobile/2.png");
-
     background-color: black;
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -27,24 +23,24 @@ body {
 }
 
 #p0 {
-    background-image: url("/static/img/mobile/0.png");
+    background-image: url("/static/img/mobile/0.jpg");
 }
 
 #p1 {
-    background-image: url("/static/img/mobile/1.png");
+    background-image: url("/static/img/mobile/1.jpg");
 }
 
 #p2 {
-    background-image: url("/static/img/mobile/2.png");
+    background-image: url("/static/img/mobile/2.jpg");
 }
 
 #go {
-    margin-top: 55vh;
+    margin-top: 52vh;
     margin-bottom: 0vh;
-    margin-left: 9vw;
+    margin-left: 12vw;
 
     height: 5vh;
-    width: 82vw;
+    width: 76vw;
 
     border: 0.2vh solid white;
     outline:none;
